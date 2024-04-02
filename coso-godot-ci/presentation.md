@@ -142,3 +142,72 @@ let a = 1;
 let b = 2;
 let c = x => 1 + 2 + x;
 c(3);
+```
+
+---
+
+### Nuestra experiencia: problemillas
+
+* Queremos usar FMOD en el proyecto
+    * Descargar la librería
+    * Importarla en el motor
+
+---
+
+### Problema 1: descargar la librería
+
+* Muy pesada (300MB)
+    * No podemos subirla a git directamente
+    * No podemos descargarla cada vez
+* Lo ideal sería usar LFS
+    * Límite en proyectos gratuitos (1GB/mes)
+* Aún queda descargar los banks
+
+---
+
+### Problema 1: descargar la librería
+
+* ¿Solución? -> Cachear ✅
+* ¿Miss de caché?
+    * Descarga
+    * Guarda en caché
+
+---
+
+### Problema 2: importar librería FMOD
+
+* Godot tiene que importar la librería
+* Bug: no espera a terminar de importar antes de empezar la build del proyecto
+
+---
+
+### Problema 2: importar librería FMOD
+
+* Forzar una espera con un hack
+    * Esperar a que el procesador esté pausado
+    * Mater el proceso para volver a lanzarlo
+* [Issue 1362](https://github.com/godotengine/godot-proposals/issues/1362) (¡abierta desde 2020!)
+* Aún estamos esperando a Godot
+    * La próxima versión siempre es la buena
+
+---
+
+### ¿Conclusiones?
+
+![./images/juez](./images/juez.jpg)
+
+---
+
+### ¡Debate!
+
+* ¿Os mola el tema? ¿Os pica aprender de CI?
+* ¿Cómo descargaríais la librería vosotres?
+* ¿Os apuntáis a darle 👍 a la issue para que la resuelvan antes? 👀
+
+---
+
+# Enlaces
+
+* Pipeline de desarrollo con Godot 4: https://www.youtube.com/watch?v=ZclZTdIf_K0
+* https://github.com/abarichello/godot-ci
+* https://blog.jnepo.dev/posts/ci-config-para-jams.html
