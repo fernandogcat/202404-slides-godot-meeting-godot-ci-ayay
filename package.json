@@ -9,7 +9,6 @@
   "license": "MIT",
   "scripts": {
     "test": "gulp test",
-    "reload": "gulp reload",
     "start": "gulp serve",
     "build": "gulp build"
   },
