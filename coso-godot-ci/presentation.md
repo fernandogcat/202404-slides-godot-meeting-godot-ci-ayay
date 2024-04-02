@@ -60,6 +60,31 @@ print("Look at the beak of Tux")
 
 ---
 
+# tabla
+
+<table>
+  <thead>
+    <tr>
+      <th>variable</th>
+      <th>class</th>
+      <th>description</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr class="fragment" data-fragment-index="1">
+      <td>character_1_gender</td>
+      <td>character</td>
+      <td>The gender of the older character</td>
+    </tr>
+    <tr class="fragment" data-fragment-index="2">
+      <td>character_2_gender</td>
+      <td>character</td>
+      <td>The gender of the younger character</td>
+    </tr>
+  </tbody>
+</table>
+---
+
 # CI (Integración Continua)
 
 * Es la traca matraca
