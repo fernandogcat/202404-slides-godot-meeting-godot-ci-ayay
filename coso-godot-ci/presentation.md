@@ -91,7 +91,6 @@ print("Look at the beak of Tux")
 * Build y publicar con cada cambio
 * Automático
 * Es código: no miente ni se olvida pasos
-```
 
 <span style="font-size: 30px;">Recurso para Github y Gitlab: https://github.com/abarichello/godot-ci</span>
 
