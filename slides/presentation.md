@@ -16,40 +16,44 @@
 
 ---
 
-# Casos de uso
+### ¿Te ha pasado?
 
-* Día a día generar build de test 
+* Rehacer build al olvidarse un cambio
 <!-- .element: class="fragment" data-fragment-index="1" -->
-* Últimos 10 minutos de jam 
+* Correr en los últimos 10 minutos de jam
 <!-- .element: class="fragment" data-fragment-index="2" -->
-* Generar build cuando el programador está de vacaciones/enfermo 
-<!-- .element: class="fragment" data-fragment-index="3" -->
-* Evitar olvidarte de un paso concreto/instalar todo 
-<!-- .element: class="fragment" data-fragment-index="4" -->
 * "En mi ordenador funciona"™️
- <!-- .element: class="fragment" data-fragment-index="5" -->
+<!-- .element: class="fragment" data-fragment-index="3" -->
+* El programador está de vacaciones/enfermo
+<!-- .element: class="fragment" data-fragment-index="4" -->
 
 ---
 
-# CI (Integración Continua)
-
-* Es la traca matraca
-* Build y publicar con cada cambio
-* Automático
-* Es código: no miente ni se olvida pasos
+## ¡Que lo haga una máquina!
 
 ---
 
-# Github Actions
+### CI (Integración Continua)
 
-* Porque Microsoft lo da gratis, pero hay otros
+* Con cada cambio del proyecto: build + publicar
+
+* Código en la nube:
+    * Automático
+    * No depende de una persona
+    * No hace falta configurarlo en tu PC
+    * No se olvida pasos
+
+---
+
+### Github Actions
+
+* Ya estábamos usando Github
+* Microsoft lo da gratis
 * workflow.yml: fichero de configuración
-    * Define los pasos para hacer build
-    * En forma de comandos de terminal
 
 ---
 
-# workflow.yml
+### workflow.yml
 
 * Descarga proyecto e img Docker
 * Descarga datos + caché
@@ -57,16 +61,18 @@
 * Setup export templates
 * Build
 * Deploy
-* Notificación en discord 👍/👎 
+* Notificación en Discord ✅/❌ 
 
 <img 
     style="width: 20%; position: fixed; top:40%; right: 0%;" 
-    src="https://s3.amazonaws.com/static.slid.es/logo/v2/slides-symbol-512x512.png" 
+    src="images/qr_workflow.svg"
     />
 
 --
 
-![Sample image](https://s3.amazonaws.com/static.slid.es/logo/v2/slides-symbol-512x512.png)
+![QR code linking to the workflow.yml file](images/qr_workflow.svg) <!-- .element height="50%" width="50%" -->
+
+[workflow.yml](https://github.com/fegabe/godot-ci-ayay/blob/main/.github/workflows/main.yml)
 
 ---
 
