@@ -182,6 +182,7 @@ c(3);
 --- 
 
 <!-- .slide: data-visibility="uncounted" -->
+<!-- .slide: data-background="#ff0000" -->
 
 <h1>
 <img 
@@ -194,7 +195,6 @@ c(3);
 # Casos de uso
 
 <!-- .slide: data-visibility="uncounted" -->
-<!-- .slide: data-background="#ff0000" -->
 
 * Día a día generar build de test <!-- .element: class="fragment" data-fragment-index="1" -->
 * Últimos 10 minutos de jam <!-- .element: class="fragment" data-fragment-index="2" -->
