@@ -160,10 +160,24 @@ c(3);
 
 # ¡Graciñas!
 
-* Nepo (<a href="https://mastodon.gamedev.place/@nepo@gamedev.lgbt" target="_blank">nepo@mastodon</a>)
-* Fernando (<a href="https://mastodon.gamedev.place/@taletronic" target="_blank">taletronic@mastodon</a>)
+<div class="container">
 
-🗣️🔈 ¡háblanos!
+  <div class="col">
+
+  Nepo <br> (<a href="https://mastodon.gamedev.place/@nepo@gamedev.lgbt" target="_blank">nepo@mastodon</a>)
+  Fernando <br> (<a href="https://mastodon.gamedev.place/@taletronic" target="_blank">taletronic@mastodon</a>)
+
+  🗣️🔈 ¡háblanos!
+
+  </div>
+
+  <div class="col">
+    <a href="https://bit.ly/autogodot" target="_blank"><img style="height: 300px" src="images/qr_slides.png" /></a>
+  </div>
+
+</div>
+
+🔗 <a href="https://bit.ly/autogodot" target="_blank">https://bit.ly/autogodot</a> 🔗
 
 --- 
 
