@@ -172,7 +172,7 @@ c(3);
   </div>
 
   <div class="col">
-    <a href="https://bit.ly/autogodot" target="_blank"><img style="height: 300px" src="images/qr_slides.png" /></a>
+    <a href="https://bit.ly/autogodot" target="_blank"><img style="height: 300px" src="images/qr_slides.svg" /></a>
   </div>
 
 </div>
