@@ -172,6 +172,7 @@ c(3);
 
   Nepo <br> (<a href="https://mastodon.gamedev.place/@nepo@gamedev.lgbt" target="_blank">nepo@mastodon</a>)
   Fernando <br> (<a href="https://mastodon.gamedev.place/@taletronic" target="_blank">taletronic@mastodon</a>)
+  David <br> (<a href="http://drnlab.net/" target="_blank">https://drnlab.net</a>)
 
   🗣️🔈 ¡háblanos!
 
