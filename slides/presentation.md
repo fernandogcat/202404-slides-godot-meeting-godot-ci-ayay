@@ -117,7 +117,7 @@ c(3);
 
 ### Problema 1: descargar la librería
 
-* ¿Solución? -> Cachear ✅
+* ¿Solución? → Cachear ✅
 * ¿Miss de caché?
     * Descarga
     * Guarda en caché
@@ -135,7 +135,7 @@ c(3);
 
 * Forzar una espera con un hack
     * Esperar a que el procesador esté pausado
-    * Mater el proceso para volver a lanzarlo
+    * Matar el proceso para volver a lanzarlo
 * <a href="https://github.com/godotengine/godot-proposals/issues/1362" target="_blank">Issue 1362</a> (¡abierta desde 2020! 👴)
 * Aún estamos esperando a Godot
     * La próxima versión siempre es la buena
@@ -152,7 +152,7 @@ c(3);
 
 * ¿Os mola el tema? ¿Os pica aprender de CI?
 * ¿Cómo descargaríais la librería vosotres?
-* ¿Os apuntáis a darle 👍 a la issue para que la resuelvan antes? 👀
+* ¿Os apuntáis a darle 👍 a la issue para que la resuelvan antes? 👀 → <a href="https://github.com/godotengine/godot-proposals/issues/1362" target="_blank">Issue 1362</a>
 
 ---
 
@@ -160,7 +160,7 @@ c(3);
 
 * Pipeline de desarrollo con Godot 4: https://www.youtube.com/watch?v=ZclZTdIf_K0
 * Docker image + actions Github y Gitlab: https://github.com/abarichello/godot-ci
-* https://blog.jnepo.dev/posts/ci-config-para-jams.html
+* Tutorial + template de CI: https://blog.jnepo.dev/posts/ci-config-para-jams.html
 
 ---
 
