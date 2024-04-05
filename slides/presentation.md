@@ -9,7 +9,7 @@
 }
 </style>
 
-# Automatización <br/> y CI para <img style="margin: 0px 0px 0px 0px; height: 100px;" src="images/godot_icon_color.webp" />
+## Automatización <br/> y CI para <img style="margin: 0px 0px 0px 0px; height: 100px;" src="images/godot_icon_color.webp" />
 
 * Fernando (<a href="https://mastodon.gamedev.place/@taletronic" target="_blank">taletronic@mastodon</a>)
 * Nepo (<a href="https://mastodon.gamedev.place/@nepo@gamedev.lgbt" target="_blank">nepo@mastodon</a>)
@@ -156,7 +156,7 @@ c(3);
 
 ---
 
-# Más info
+### Más info
 
 * Pipeline de desarrollo con Godot 4: https://www.youtube.com/watch?v=ZclZTdIf_K0
 * Docker image + actions Github y Gitlab: https://github.com/abarichello/godot-ci
@@ -164,7 +164,7 @@ c(3);
 
 ---
 
-# ¡Graciñas!
+### ¡Graciñas!
 
 <div class="container">
 
