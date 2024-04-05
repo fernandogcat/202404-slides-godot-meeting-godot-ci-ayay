@@ -179,12 +179,12 @@ c(3);
   </div>
 
   <div class="col">
-    <a href="https://bit.ly/autogodot" target="_blank"><img style="height: 300px" src="images/qr_slides.svg" /></a>
+    <a href="https://blog.jnepo.dev/slides/godot-ci-ayay/" target="_blank"><img style="height: 300px" src="images/qr_slides.svg" /></a>
   </div>
 
 </div>
 
-🔗 <a href="https://bit.ly/autogodot" target="_blank">https://bit.ly/autogodot</a> 🔗
+🔗 <a href="https://blog.jnepo.dev/slides/godot-ci-ayay/" target="_blank">https://blog.jnepo.dev/slides/godot-ci-ayay/</a> 🔗
 
 --- 
 
