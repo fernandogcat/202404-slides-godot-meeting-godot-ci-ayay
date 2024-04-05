@@ -11,14 +11,15 @@
 
 ## Automatización <br/> y CI para <img style="margin: 0px 0px 0px 0px; height: 100px;" src="images/godot_icon_color.webp" />
 
-* Fernando (<a href="https://mastodon.gamedev.place/@taletronic" target="_blank">taletronic@mastodon</a>)
-* Nepo (<a href="https://mastodon.gamedev.place/@nepo@gamedev.lgbt" target="_blank">nepo@mastodon</a>)
+Fernando (<a href="https://mastodon.gamedev.place/@taletronic" target="_blank">taletronic@mastodon</a>)
+<br/>
+Nepo (<a href="https://mastodon.gamedev.place/@nepo@gamedev.lgbt" target="_blank">nepo@mastodon</a>)
 
 ---
 
 ### ¿Te ha pasado?
 
-* Rehacer build al olvidarse un cambio
+* Rehacer build al olvidarte un cambio
 <!-- .element: class="fragment" data-fragment-index="1" -->
 * Correr en los últimos 10 minutos de jam
 <!-- .element: class="fragment" data-fragment-index="2" -->
@@ -29,7 +30,9 @@
 
 ---
 
-## ¡Que lo haga una máquina!
+## ¡Que lo haga <br/>una máquina!
+
+![bender chilling](images/bender.jpg)
 
 ---
 
@@ -76,23 +79,10 @@
 
 ---
 
-# Ejemplo
+# Demo
 
-* Github Actions
-* Selecciona workflow
-* Lanzar (hacer rama para <br/>q se vea q pasa cuando falla / <br/>hacer como sorpresa)
-
-<img 
-style="width: 20%; position: fixed; top:20%; right: 0%;" 
-src="https://s3.amazonaws.com/static.slid.es/logo/v2/slides-symbol-512x512.png" 
-/> 
-
-```js [1-2|3|4]
-let a = 1;
-let b = 2;
-let c = x => 1 + 2 + x;
-c(3);
-```
+<a href="https://github.com/fegabe/godot-ci-ayay/actions/workflows/main.yml" target="_blank" style="padding-right: 20px;">Actions</a>
+<a href="https://taletronic.itch.io/godot-ci-ayay" target="_blank" style="padding-left: 20px;">Itch.io</a>
 
 ---
 
@@ -172,9 +162,9 @@ c(3);
 
   Nepo <br> (<a href="https://mastodon.gamedev.place/@nepo@gamedev.lgbt" target="_blank">nepo@mastodon</a>)
   Fernando <br> (<a href="https://mastodon.gamedev.place/@taletronic" target="_blank">taletronic@mastodon</a>)
-  David <br> (<a href="http://drnlab.net/" target="_blank">https://drnlab.net</a>)
+  David <br> (<a href="https://twitter.com/drnlab" target="_blank">drnlab@twitter</a>)
 
-  🗣️🔈 ¡háblanos!
+  🗣️🔈 ¡Háblanos!
 
   </div>
 
@@ -268,3 +258,22 @@ blabla
     </tr>
   </tbody>
 </table>
+
+---
+<!-- .slide: data-visibility="uncounted" -->
+
+* Github Actions
+* Selecciona workflow
+* Lanzar (hacer rama para <br/>q se vea q pasa cuando falla / <br/>hacer como sorpresa)
+
+<img 
+style="width: 20%; position: fixed; top:20%; right: 0%;" 
+src="https://s3.amazonaws.com/static.slid.es/logo/v2/slides-symbol-512x512.png" 
+/> 
+
+```js [1-2|3|4]
+let a = 1;
+let b = 2;
+let c = x => 1 + 2 + x;
+c(3);
+```
